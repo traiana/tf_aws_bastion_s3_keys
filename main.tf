@@ -134,7 +134,7 @@ resource "aws_autoscaling_group" "bastion" {
       }",
   ]
 
-  lifecycle {
-    create_before_destroy = true
-  }
+#  lifecycle {
+#    create_before_destroy = true
+#  }
 }
